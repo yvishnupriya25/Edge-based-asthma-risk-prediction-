@@ -9,8 +9,8 @@ ESP32 Code for MQTT:
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 SoftwareSerial sds011Serial(RX_PIN, TX_PIN);
-const char* WIFI_SSID = "Sahithi";
-const char* WIFI_PASSWORD = "sahithi123";
+const char* WIFI_SSID = "Vishnupriya";
+const char* WIFI_PASSWORD = "vishnu123";
 const char* MQTT_SERVER = "broker.hivemq.com";
 const char* MQTT_CLIENT_ID = "livingroom";
 const char* MQTT_TOPIC = "home/livingroom";
